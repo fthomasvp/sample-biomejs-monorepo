@@ -1,0 +1,13 @@
+{
+  "name": "sample-biomejs-monorepo",
+  "scripts": {
+    "build:all": "pnpm run -r build",
+    "format:all": "pnpm run -r format",
+    "lint:all": "pnpm run -r lint"
+  },
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  },
+  "license": "MIT"
+}
